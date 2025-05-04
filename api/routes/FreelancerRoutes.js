@@ -7,9 +7,7 @@ const {
   deleteService,
   updateService,
 } = require("../controllers/ServicesController");
-
-const VerifyToken = require("../middleware/VerifyToken");
-
+const VerifyToken = require("../middleware/Auth");
 const { createServiceUpload } = require("../middleware/uploadImage");
 const route = express.Router();
 

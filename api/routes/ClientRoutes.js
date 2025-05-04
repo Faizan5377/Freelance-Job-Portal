@@ -12,7 +12,7 @@ const {
 } = require("../controllers/ServicesController");
 const { createTestimonial } = require("../controllers/TestimonialsController");
 const { findUserById } = require("../controllers/UserController");
-const VerifyToken = require("../middleware/verifyToken");
+const VerifyToken = require("../middleware/Auth");
 const route = express.Router();
 
 route.get("/dashboard", VerifyToken, async (req, res) => {

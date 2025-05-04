@@ -4,9 +4,7 @@ const {
   sendMessage,
   getMessages,
 } = require("../controllers/ChatController");
-
-const VerifyToken = require("../middleware/VerifyToken");
-
+const VerifyToken = require("../middleware/Auth");
 const route = express.Router();
 
 route.get("/all", VerifyToken, async (req, res) => {
