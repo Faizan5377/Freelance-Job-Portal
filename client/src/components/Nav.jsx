@@ -49,10 +49,10 @@ export default function Nav() {
             <div className="container">
                 <header>
                     <div className="logo">
-                        <HashLink to="/#">WorkWonders</HashLink>
+                        <HashLink to="/#">TechWorks</HashLink>
                     </div>
                     <nav>
-                        <span className='menu-logo'>WorkWonders</span>
+                        <span className='menu-logo'>TechWorks</span>
                         <HashLink to="/#">Home</HashLink>
                         <HashLink to="/#services" smooth>Services</HashLink>
                         <HashLink to="/#aboutus" smooth>About Us</HashLink>

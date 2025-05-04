@@ -1,8 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="20.774" height="16" viewBox="0 0 20.774 16">
-  <g id="Icons_Navigation_icon_12_states_" data-name="Icons / Navigation icon (12 states)" transform="translate(1.387 1)">
-    <g id="ic_inbox">
-      <rect id="Rectangle_603" data-name="Rectangle 603" width="18" height="14" rx="2" transform="translate(0.067)" fill="none" stroke="#feab5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-      <path id="Path_377" data-name="Path 377" d="M3,7l9,6,9-6" transform="translate(-3 -5)" fill="none" stroke="#feab5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-    </g>
-  </g>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0 0 25 25" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:evenodd;fill:rgb(0%,0%,0%);fill-opacity:1;" d="M 0 22.058594 L 25 22.058594 L 25 2.941406 L 0 2.941406 Z M 1.472656 4.90625 L 1.472656 4.414062 L 23.527344 4.414062 L 23.527344 4.90625 L 12.5 14.46875 Z M 23.527344 6.851562 L 23.527344 19.230469 L 18.957031 13.511719 L 17.804688 14.429688 L 22.734375 20.589844 L 2.265625 20.589844 L 7.195312 14.429688 L 6.042969 13.511719 L 1.472656 19.230469 L 1.472656 6.851562 L 12.5 16.417969 Z M 23.527344 6.851562 "/>
+</g>
 </svg>

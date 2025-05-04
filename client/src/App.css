@@ -1,10 +1,10 @@
 :root {
-  --color-orange: #feab5e;
-  --color-light-orange: #fcbf87;
-  --color-grey: #707070;
-  --color-border-orange: #ffead7;
-  --color-green: #198754;
-  --color-red: #dc3545;
+  --color-teal: #008080;
+  --color-light-teal: #8EE2BF;
+  --color-grey: #808080;
+  --color-border-peach: #FFE5B4;
+  --color-green: #2E8B57;
+  --color-red: 	#FF7F7F;
 }
 
 .container {
@@ -71,7 +71,7 @@
 }
 .Nav {
   width: 100%;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   position: sticky;
   top: 0px;
   z-index: 2;
@@ -114,7 +114,7 @@ nav .menu {
   position: relative;
 }
 nav .menu .dropdown {
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   border: 1px solid white;
   position: absolute;
   bottom: -116px;
@@ -161,7 +161,7 @@ nav a {
   border-radius: 10px;
 }
 nav button a {
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 
 @media (max-width: 991px) {
@@ -196,7 +196,7 @@ nav button a {
     z-index: 2;
     width: 100%;
     height: 100%;
-    background-color: var(--color-orange);
+    background-color: var(--color-teal);
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -220,7 +220,7 @@ nav button a {
   }
   nav .menu .dropdown {
     background-color: white;
-    border: 1px solid var(--color-orange);
+    border: 1px solid var(--color-teal);
     position: absolute;
     bottom: -25px;
     z-index: 1;
@@ -233,7 +233,7 @@ nav button a {
     cursor: pointer;
     font-size: 20px;
     font-weight: 600;
-    color: var(--color-orange);
+    color: var(--color-teal);
   }
   nav .menu .dropdown .link:nth-child(1):before {
     content: "";
@@ -275,7 +275,7 @@ nav button a {
   outline: none;
   border: none;
   border-radius: 30px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 20px;
@@ -309,7 +309,7 @@ nav button a {
 .Home .custom-headline {
   margin-top: 50px;
   font-weight: bold;
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 40px;
   text-align: center;
 }
@@ -379,18 +379,18 @@ nav button a {
 .Home .contact-us label {
   font-weight: bold;
   display: inline-block;
-  color: var(--color-orange);
+  color: var(--color-teal);
   width: 100%;
   text-align: left;
   margin-bottom: 8px;
 }
 .Home .contact-us input {
-  color: var(--color-orange);
+  color: var(--color-teal);
   outline: none;
   width: 90%;
   padding: 17px 20px;
-  background-color: var(--color-orange);
-  border: 2px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 2px solid var(--color-light-teal);
   color: white;
   font-size: 14px;
   border-radius: 10px;
@@ -406,13 +406,13 @@ nav button a {
   transition: 0.3s;
 }
 .Home .contact-us textarea {
-  color: var(--color-orange);
+  color: var(--color-teal);
   outline: none;
   max-width: 90%;
   min-height: 18px;
   padding: 17px 20px;
-  background-color: var(--color-orange);
-  border: 1px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 1px solid var(--color-light-teal);
   color: white;
   font-size: 14px;
   border-radius: 10px;
@@ -423,7 +423,7 @@ nav button a {
   outline: none;
   border: none;
   border-radius: 30px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 16px;
@@ -435,7 +435,7 @@ nav button a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   margin-top: 50px;
   padding-bottom: 20px;
 }
@@ -554,7 +554,7 @@ nav button a {
 .specialfooter {
   border-radius: 30px 30px 0px 0px;
   width: 100%;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   display: flex;
   justify-content: center;
 }
@@ -611,7 +611,7 @@ nav button a {
   flex-direction: column;
 }
 .Login section .loginForm .loginHeader {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
 }
 .Login section .loginForm .formSection {
@@ -622,7 +622,7 @@ nav button a {
 }
 .Login form label {
   display: inline-block;
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-weight: bold;
   width: 100%;
   text-align: left;
@@ -630,12 +630,12 @@ nav button a {
   margin-bottom: 8px;
 }
 .Login input {
-  color: var(--color-orange);
+  color: var(--color-teal);
   outline: none;
   width: 90%;
   padding: 17px 20px;
-  background-color: var(--color-orange);
-  border: 2px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 2px solid var(--color-light-teal);
   color: white;
   font-size: 20px;
   border-radius: 10px;
@@ -654,7 +654,7 @@ nav button a {
   outline: none;
   border: none;
   border-radius: 30px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   width: 130px;
   height: 45px;
@@ -666,7 +666,7 @@ nav button a {
 }
 .Login section span {
   font-size: 20px;
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 @media (max-width: 1200px) {
   .Login img {
@@ -717,7 +717,7 @@ nav button a {
   margin-bottom: 30px;
 }
 .Error .errorDescription .errorhead span {
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 .Error .errorDescription .errorbody {
   color: var(--color-grey);
@@ -729,7 +729,7 @@ nav button a {
   outline: none;
   border: none;
   border-radius: 30px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 16px;
@@ -786,7 +786,7 @@ nav button a {
   flex-direction: column;
 }
 .Signup section .signupForm .signupHeader {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
 }
 .Signup section .inputs {
@@ -804,7 +804,7 @@ nav button a {
 }
 .Signup form label {
   display: inline-block;
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-weight: bold;
   width: 100%;
   text-align: left;
@@ -812,12 +812,12 @@ nav button a {
 }
 
 .Signup input {
-  color: var(--color-orange);
+  color: var(--color-teal);
   outline: none;
   width: 100%;
   padding: 17px 20px;
-  background-color: var(--color-orange);
-  border: 2px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 2px solid var(--color-light-teal);
   color: white;
   font-size: 18px;
   border-radius: 10px;
@@ -835,23 +835,23 @@ nav button a {
   flex-direction: column;
 }
 .Signup select {
-  border: 2px solid var(--color-light-orange);
+  border: 2px solid var(--color-light-teal);
   font-size: 16px;
   padding: 16px 20px;
   outline: none;
   width: 116%;
   border-radius: 10px;
   margin-bottom: 25px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
-  border-right: 21px solid var(--color-orange);
+  border-right: 21px solid var(--color-teal);
 }
 .Signup section button {
   cursor: pointer;
   outline: none;
   border: none;
   border-radius: 30px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   width: 115px;
   height: 40px;
@@ -866,13 +866,13 @@ nav button a {
 .Signup section span {
   font-size: 20px;
   margin-right: 62px;
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 .Signup .image {
   cursor: pointer;
   color: white;
-  background-color: var(--color-orange);
-  border: 2px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 2px solid var(--color-light-teal);
   width: 100%;
   padding: 17px 20px;
   font-size: 18px;
@@ -948,7 +948,7 @@ nav button a {
   justify-content: space-between;
 }
 .FreelancerDashboard .serverStopped {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -983,7 +983,7 @@ nav button a {
   width: 62px;
   height: 62px;
   border-radius: 50%;
-  background-color: var(--color-border-orange);
+  background-color: var(--color-border-peach);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1027,7 +1027,7 @@ nav button a {
   gap: 15px;
 }
 .FreelancerDashboard .testimonials .cards .noTestimonials {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -1043,7 +1043,7 @@ nav button a {
   flex-direction: column;
   border-radius: 10px;
   width: 80%;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
@@ -1106,10 +1106,10 @@ nav button a {
 .Menu .link a .linkHeader {
   padding-left: 12px;
   font-weight: 600;
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 .Menu .link.active {
-  background-color: var(--color-border-orange);
+  background-color: var(--color-border-peach);
 }
 @media (max-width: 990px) {
   .Menu .link {
@@ -1139,7 +1139,7 @@ nav button a {
   padding: 16px 46px;
   width: 280px;
   color: white;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   font-size: 30px;
   outline: none;
   border: none;
@@ -1157,7 +1157,7 @@ nav button a {
   color: black;
 }
 .FreelancerServices .noServices {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -1235,7 +1235,7 @@ nav button a {
 .FreelancerServices .services .service .rating-more button {
   font-weight: bolder;
   cursor: pointer;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 20px;
   outline: none;
@@ -1281,7 +1281,7 @@ nav button a {
   cursor: pointer;
   outline: none;
   border: none;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 16px;
@@ -1291,7 +1291,7 @@ nav button a {
 .FreelancerCreateService .createHeader {
   font-size: 50px;
   text-align: center;
-  color: var(--color-orange);
+  color: var(--color-teal);
   margin-top: 20px;
   margin-bottom: 50px;
 }
@@ -1303,7 +1303,7 @@ nav button a {
 }
 .FreelancerCreateService form label {
   display: inline-block;
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-weight: bold;
   font-size: 14px;
   width: 100%;
@@ -1312,8 +1312,8 @@ nav button a {
 }
 .FreelancerCreateService form input {
   color: white;
-  background-color: var(--color-orange);
-  border: 2px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 2px solid var(--color-light-teal);
   outline: none;
   width: 90%;
   padding: 17px 20px;
@@ -1323,8 +1323,8 @@ nav button a {
 .FreelancerCreateService form textarea {
   color: white;
   padding: 17px 20px;
-  background-color: var(--color-orange);
-  border: 1px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 1px solid var(--color-light-teal);
   outline: none;
   font-size: 18px;
   border-radius: 10px;
@@ -1336,8 +1336,8 @@ nav button a {
 .FreelancerCreateService .images {
   cursor: pointer;
   color: white;
-  background-color: var(--color-orange);
-  border: 2px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 2px solid var(--color-light-teal);
   width: 90%;
   padding: 17px 20px;
   font-size: 18px;
@@ -1351,7 +1351,7 @@ nav button a {
   outline: none;
   border: none;
   border-radius: 30px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 16px;
@@ -1397,7 +1397,7 @@ nav button a {
   cursor: pointer;
   outline: none;
   border: none;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 16px;
@@ -1407,7 +1407,7 @@ nav button a {
 .FreelancerManageServices .manageHeader {
   font-size: 50px;
   text-align: center;
-  color: var(--color-orange);
+  color: var(--color-teal);
   margin-block: 53px;
 }
 .FreelancerManageServices table {
@@ -1426,7 +1426,7 @@ nav button a {
   font-size: 30px;
 }
 .FreelancerManageServices .noServices {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -1517,7 +1517,7 @@ nav button a {
   cursor: pointer;
   outline: none;
   border: none;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 16px;
@@ -1527,7 +1527,7 @@ nav button a {
 .FreelancerUpdateService .updateHeader {
   font-size: 50px;
   text-align: center;
-  color: var(--color-orange);
+  color: var(--color-teal);
   margin-block: 53px;
 }
 .FreelancerUpdateService form {
@@ -1538,7 +1538,7 @@ nav button a {
 }
 .FreelancerUpdateService form label {
   display: inline-block;
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-weight: bold;
   font-size: 14px;
   width: 100%;
@@ -1547,8 +1547,8 @@ nav button a {
 }
 .FreelancerUpdateService form input {
   color: white;
-  background-color: var(--color-orange);
-  border: 2px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 2px solid var(--color-light-teal);
   outline: none;
   width: 90%;
   padding: 17px 20px;
@@ -1558,8 +1558,8 @@ nav button a {
 .FreelancerUpdateService form textarea {
   color: white;
   padding: 17px 20px;
-  background-color: var(--color-orange);
-  border: 1px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 1px solid var(--color-light-teal);
   outline: none;
   font-size: 18px;
   border-radius: 10px;
@@ -1571,8 +1571,8 @@ nav button a {
 .FreelancerUpdateService .images {
   cursor: pointer;
   color: white;
-  background-color: var(--color-orange);
-  border: 2px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 2px solid var(--color-light-teal);
   width: 90%;
   padding: 17px 20px;
   font-size: 18px;
@@ -1586,7 +1586,7 @@ nav button a {
   outline: none;
   border: none;
   border-radius: 30px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 16px;
@@ -1764,7 +1764,7 @@ nav button a {
   font-size: 18px;
   border-radius: 10px;
   cursor: pointer;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   padding: 12px 40px;
   color: white;
 }
@@ -1834,7 +1834,7 @@ nav button a {
   background-color: whitesmoke;
 }
 .Chat .section .messages .messageSection.active {
-  border-left: 7px solid var(--color-orange);
+  border-left: 7px solid var(--color-teal);
   background-color: whitesmoke;
 }
 .Chat .section .messages .messageSection img {
@@ -1865,7 +1865,7 @@ nav button a {
 }
 .Chat .section .zeroMessage .nomessage .title {
   font-size: 70px;
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 .Chat .section .zeroMessage .nomessage span {
   margin-top: 20px;
@@ -1890,7 +1890,7 @@ nav button a {
 }
 .Chat .section .selectedMessages .nomessage .title {
   font-size: 70px;
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 .Chat .section .selectedMessages .nomessage span {
   margin-top: 20px;
@@ -1927,7 +1927,7 @@ nav button a {
 }
 .Chat .section .selectedMessages .myMessage {
   border-radius: 20px 20px 0px 20px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   padding-block: 11px;
   padding-left: 15px;
   margin-right: 80px;
@@ -2014,7 +2014,7 @@ nav button a {
   border: none;
   border-radius: 50%;
   padding: 12px;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   height: 50px;
 }
 @media (max-width: 1400px) {
@@ -2143,7 +2143,7 @@ nav button a {
   cursor: pointer;
 }
 .ServiceDetail .testimonialForm form .testimonialHeader {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 29px;
   font-weight: 500;
   margin-bottom: 10px;
@@ -2152,13 +2152,13 @@ nav button a {
   width: 100%;
 }
 .ServiceDetail .testimonialForm form textarea {
-  color: var(--color-orange);
+  color: var(--color-teal);
   outline: none;
   max-width: 320px;
   min-height: 18px;
   padding: 17px 20px;
-  background-color: var(--color-orange);
-  border: 1px solid var(--color-light-orange);
+  background-color: var(--color-teal);
+  border: 1px solid var(--color-light-teal);
   color: white;
   font-size: 18px;
   border-radius: 10px;
@@ -2183,7 +2183,7 @@ nav button a {
   cursor: pointer;
   outline: none;
   border: none;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 55px;
   font-size: 16px;
@@ -2344,7 +2344,7 @@ nav button a {
   width: 62px;
   height: 62px;
   border-radius: 50%;
-  background-color: var(--color-border-orange);
+  background-color: var(--color-border-peach);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -2377,7 +2377,7 @@ nav button a {
   margin-top: 30px;
 }
 .ClientDashboard .serverStopped {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -2388,7 +2388,7 @@ nav button a {
   width: 100%;
 }
 .ClientDashboard .testimonials .cards .noTestimonials {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -2414,7 +2414,7 @@ nav button a {
   flex-direction: column;
   border-radius: 10px;
   width: 80%;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   align-items: center;
   justify-content: flex-start;
   gap: 10px;
@@ -2453,7 +2453,7 @@ nav button a {
   min-height: calc(100vh - 273px);
 }
 .ClientServices .noServices {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -2475,12 +2475,12 @@ nav button a {
   padding: 10px 20px 10px 32px;
   width: 229px;
   color: white;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   font-size: 20px;
   outline: none;
   border: none;
   border-radius: 10px;
-  border-right: 15px solid var(--color-orange);
+  border-right: 15px solid var(--color-teal);
   text-align: center;
 }
 .ClientServices .buttons select option {
@@ -2561,7 +2561,7 @@ nav button a {
 .ClientServices .services .service .rating-more button {
   font-weight: bolder;
   cursor: pointer;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 20px;
   outline: none;
@@ -2594,10 +2594,10 @@ nav button a {
 /* Start of Slider arrows and pagination color */
 .swiper-button-next:after,
 .swiper-button-prev:after {
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 .swiper-pagination-clickable .swiper-pagination-bullet {
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
 }
 /* End Of Slider arrows and pagination color */
 
@@ -2608,7 +2608,7 @@ nav button a {
 .ClientOrders .orders-header {
   font-size: 50px;
   text-align: center;
-  color: var(--color-orange);
+  color: var(--color-teal);
   margin-block: 40px;
 }
 .ClientOrders .filterOrders {
@@ -2630,7 +2630,7 @@ nav button a {
   border-radius: 10px;
 }
 .ClientOrders .filter.ongoing {
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 .ClientOrders .filter.completed {
   color: var(--color-green);
@@ -2643,7 +2643,7 @@ nav button a {
   color: white;
 }
 .ClientOrders .filter.ongoing:hover {
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
 }
 .ClientOrders .filter.completed:hover {
@@ -2659,7 +2659,7 @@ nav button a {
   color: white;
 }
 .ClientOrders .filter.ongoing.active {
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
 }
 .ClientOrders .filter.completed.active {
@@ -2682,7 +2682,7 @@ nav button a {
   gap: 30px;
 }
 .ClientOrders .noServices {
-  color: var(--color-orange);
+  color: var(--color-teal);
   font-size: 50px;
   text-align: center;
   font-weight: 700;
@@ -2768,7 +2768,7 @@ nav button a {
 .ClientOrders .services .service .rating-more button {
   font-weight: bolder;
   cursor: pointer;
-  background-color: var(--color-orange);
+  background-color: var(--color-teal);
   color: white;
   padding: 10px 20px;
   outline: none;
@@ -2806,7 +2806,7 @@ nav button a {
   color: var(--color-green);
 }
 .ClientOrders .services .service .serviceState .ongoing {
-  color: var(--color-orange);
+  color: var(--color-teal);
 }
 .ClientOrders .services .service .serviceState .cancelled {
   color: var(--color-red);

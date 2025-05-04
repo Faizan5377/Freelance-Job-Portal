@@ -172,14 +172,14 @@ export default function Home() {
             </div>
             <footer>
                 <div className="footer-head">
-                    WorkWonders
+                    TechWorks
                 </div>
                 <p className="footer-body">
-                    Work Wonders is a leading provider of freelance services, connecting talented individuals with clients who need their skills and expertise. From website design and development to writing and marketing, our team has the knowledge and experience to help you succeed.
+                    TechWorks is a leading provider of freelance services, connecting talented individuals with clients who need their skills and expertise. From website design and development to writing and marketing, our team has the knowledge and experience to help you succeed.
                 </p>
                 <div className="footer-footer">
                     <div className="copyright">
-                        Copyright Work Wonders ©2023 | All Rights Reserved
+                        Copyright TechWorks ©2025 | All Rights Reserved
                     </div>
                     <div className="socials">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">

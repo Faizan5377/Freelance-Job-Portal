@@ -1,7 +1,6 @@
-<svg id="users" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
-  <path id="Path_450" data-name="Path 450" d="M0,0H24V24H0Z" fill="none"/>
-  <circle id="Ellipse_11" data-name="Ellipse 11" cx="4" cy="4" r="4" transform="translate(5.135 3)" fill="none" stroke="#feab5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <path id="Path_451" data-name="Path 451" d="M3,21V19a4,4,0,0,1,4-4h4a4,4,0,0,1,4,4v2" fill="none" stroke="#feab5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <path id="Path_452" data-name="Path 452" d="M16,3.13a4,4,0,0,1,0,7.75" fill="none" stroke="#feab5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
-  <path id="Path_453" data-name="Path 453" d="M21,21V19a4,4,0,0,0-3-3.85" fill="none" stroke="#feab5e" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="25px" height="25px" viewBox="0 0 25 25" version="1.1">
+<g id="surface1">
+<path style=" stroke:none;fill-rule:nonzero;fill:rgb(0%,50.196081%,50.196081%);fill-opacity:1;" d="M 7.683594 13.101562 L 10.90625 16.566406 L 14.464844 13.078125 L 15.566406 6.585938 L 11.234375 6.363281 Z M 7.28125 12.699219 L 10.695312 6.332031 L 0.785156 5.792969 Z M 4.8125 3.789062 L 5.648438 5.503906 L 10.269531 5.792969 Z M 13.882812 3.785156 L 11.550781 5.890625 L 15.476562 6.039062 Z M 6.15625 21.214844 L 10.523438 16.941406 L 7.898438 14.121094 Z M 14.546875 3.785156 L 16.140625 6.027344 L 24.214844 3.785156 Z M 14.546875 3.785156 "/>
+</g>
 </svg>
