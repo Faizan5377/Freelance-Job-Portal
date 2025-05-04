@@ -1,70 +1,73 @@
-# Getting Started with Create React App
+# TechWorks
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+*The premier platform connecting tech professionals with clients seeking specialized services*
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## About
 
-### `npm start`
+TechWorks is a comprehensive freelance platform that bridges the gap between talented tech professionals and clients seeking specialized services. The platform features:
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- **For Freelancers:** Create and manage services, track performance metrics, receive client testimonials
+- **For Clients:** Browse available services, make service requests, monitor order status and expenditures
+- **For Everyone:** Personalized dashboards, profile customization, and real-time communication
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technical Foundation
 
-### `npm test`
+| Layer | Technology |
+|-------|------------|
+| Database | MongoDB |
+| Backend | Express & Node.js |
+| Frontend | React |
+| Real-time Communication | Socket.io |
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Getting Started
 
-### `npm run build`
+### System Requirements
+- Node.js (latest stable version)
+- MongoDB (latest stable version)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Setup Instructions
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+1. Clone the repository
+2. Install dependencies for each component:
+   ```bash
+   # Setup API server
+   cd api
+   npm install
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+   # Setup client application
+   cd ../client
+   npm install
 
-### `npm run eject`
+   # Setup socket server
+   cd ../socket
+   npm install
+   ```
+3. Launch all services:
+   ```bash
+   # In each directory (api, client, socket)
+   npm start
+   ```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Dependency Overview
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Server-side Technologies
+- **bcrypt** - Secure password hashing
+- **cors** - Cross-origin resource sharing
+- **dotenv** - Environment variable management
+- **express** - Web framework
+- **jsonwebtoken** - Authentication
+- **mongoose** - MongoDB object modeling
+- **multer** - File upload handling
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### Client-side Technologies
+- **axios** - HTTP client
+- **moment** - Date formatting
+- **react-icons** - Icon library
+- **@reduxjs/toolkit** - State management
+- **react-router** & **react-router-hash-link** - Routing
+- **react-spinners** - Loading animations
+- **react-toastify** - Notification system
+- **socket.io-client** - Real-time communication
+- **swiper** - Touch slider
